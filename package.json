@@ -1,0 +1,16 @@
+{
+  "name": "@st/srl-editor-bridge-02",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Generic rendered NOTE/REST targeting contract and stale-evidence bridge for ST Score Rendering Layer and ST Score Editor Core.",
+  "exports": "./src/index.mjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "test": "node --test",
+    "ci": "npm run check && npm test"
+  }
+}
